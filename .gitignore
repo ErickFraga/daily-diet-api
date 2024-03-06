@@ -1,2 +1,5 @@
-tmp
 node_modules
+db/db.sqlite
+db/db.test.sqlite
+.env
+.env.test

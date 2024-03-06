@@ -1,0 +1,19 @@
+meta {
+  name: get transactions
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{base-url}}/transactions
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "title": "freela",
+    "amount": "450",
+    "type": "income"
+  }
+}

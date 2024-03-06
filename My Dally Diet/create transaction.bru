@@ -1,0 +1,19 @@
+meta {
+  name: create transaction
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{base-url}}/transactions
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "bala",
+    "amount": 0.56,
+    "type": "outcome"
+  }
+}

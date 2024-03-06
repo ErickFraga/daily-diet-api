@@ -1,0 +1,19 @@
+meta {
+  name: summary
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{base-url}}/transactions/cf8b1975-c881-4448-8dc5-5594d4508ca4
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "title": "freela",
+    "amount": "450",
+    "type": "income"
+  }
+}

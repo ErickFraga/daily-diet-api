@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "My Dally Diet",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
