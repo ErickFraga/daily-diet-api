@@ -9,7 +9,7 @@
     "lint": "eslint --fix ./src --ext .ts",
     "knex": "node --import tsx ./node_modules/.bin/knex",
     "test": "npx vitest",
-    "build": "tsup src --out-dir src"
+    "build": "tsup src --out-dir build"
   },
   "dependencies": {
     "@fastify/cookie": "^9.3.1",
