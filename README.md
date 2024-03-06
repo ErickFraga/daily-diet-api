@@ -8,7 +8,7 @@
 # REGRAS DE NEGOCIO
 
  - [x] A transação pode ser do tipo credito que somara ao valor total, ou debito subtrairá;
- - [ ] Deve ser possível identificar o usuário entre as requisições;
- - [ ] O usuário so pode visualizar transações o qual ele criou
+ - [x] Deve ser possível identificar o usuário entre as requisições;
+ - [x] O usuário so pode visualizar transações o qual ele criou
 
 # REQUISITOS NÃO FUNCIONAIS
